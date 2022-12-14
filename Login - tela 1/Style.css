@@ -1,0 +1,35 @@
+body{
+    background-image: url(./assets/wepik-photo-mode-20221110-163253.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.titulo{
+    font-family:'Bungee Inline', serif;
+    font-size: 80px;
+    color: #f5f5f5;
+    }
+        
+.form-control{
+    max-width: 400px;
+    
+}
+#botao{
+    background-color:#10403B;
+}
+
+#social{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+@media (max-width:720px){
+    #social{
+        display: block;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,49 @@
+body{
+    background-image: url(./assets/gettyimages-1163962218-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    padding: 30px;
+    border: 2px;
+    border-color: #10403B;
+}
+
+.card-body{
+    border: 2px;
+    border-color: #10403B;
+}
+.card-img-top{
+    width: 35px;
+    height: 200px;
+}
+#titulo{
+    font-family:'Bungee Inline', serif;
+    font-size: 80px;
+    color: #10403B;
+    }
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+@media (max-width:720px){
+    #cards{
+        display: block;
+    }
+    #titulo{
+        font-size: 40px;
+    }
+    #subtitulo{
+        font-size: 25px;
+    }
+    body{
+        background-image: none;
+        background-color: gray;
+    }
+  }
